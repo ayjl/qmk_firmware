@@ -6,7 +6,12 @@
 #include QMK_KEYBOARD_H
 
 #include "manna-harbour_miryoku.h"
-
+// #undef LAYER_STATE_8BIT
+// #ifdef LAYER_STATE_8BIT
+// #pragma message "layerstate8bit"
+// #else
+// #pragma message "nolayerstate8bit"
+// #endif
 
 // Additional Features double tap guard
 
